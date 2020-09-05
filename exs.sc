@@ -6,3 +6,7 @@ val string = "sdfdsfdfvsdvxzfsdf"
 string.indexOf('d',2)
 
 'a' - 'd'
+
+0 max 5
+"bob".capitalize
+-2.7.abs.round
