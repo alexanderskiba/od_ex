@@ -1,3 +1,5 @@
+import for_loop.filesHere
+
 val hex = 0x5
 val magic = 0xcafebabe
 val longSum = 1 + 2L
@@ -10,3 +12,7 @@ string.indexOf('d',2)
 0 max 5
 "bob".capitalize
 -2.7.abs.round
+
+def greet() = {println("hi!")}
+() == greet()
+
