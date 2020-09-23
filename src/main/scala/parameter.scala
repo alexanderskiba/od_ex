@@ -26,7 +26,7 @@ object parameter extends App {
     if (assertionEnabled && !predicate)
       throw new AssertionError
 
-  boolAssert(5 > 3)
+//  boolAssert(5 > 3)
 
   // разница в том, что в последнем случае выражение в круглых скобках вычисляется до вызова boolAssert
   // ниже будет пример
@@ -34,5 +34,5 @@ object parameter extends App {
   assertionEnabled = true
 
 //  boolAssert(x / 0 == 0) // будет исключение ArithmeticException
-  byNameAssert(x / 0 == 0)
+//  byNameAssert(x / 0 == 0)
 }
